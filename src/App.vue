@@ -1,11 +1,18 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <Father />
   </div>
-  <router-view/>
 </template>
 
+<script>
+import Father from '@/components/Father.vue'
+export default {
+  name: 'App',
+  components: {
+    Father
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

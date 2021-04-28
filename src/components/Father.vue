@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     showRealName (val) {
-      alert(val)
+      console.log(val)
     }
   },
   mounted () {
