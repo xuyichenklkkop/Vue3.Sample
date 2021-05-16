@@ -22,7 +22,7 @@ export default {
   mounted () {
     this.showName()
     this.getData()
-    this.getest()
+
   }
 }
 </script>

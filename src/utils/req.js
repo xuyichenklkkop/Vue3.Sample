@@ -1,5 +1,5 @@
 import axios from 'axios'
-var apiurl = window.ORIGIN + '/api'  // 接口地址
+var apiurl = this.$ORIGIN + '/api'  // 接口地址
 
 /**
  * 
