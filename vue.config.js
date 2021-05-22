@@ -3,13 +3,13 @@ const entries = require('./build/entryConfig')
 
 module.exports = {
   pages: {
-    index: 'src/main.js',
-    print: {
-      entry: 'src/print.js',
-      // 模板来源
-      template: 'public/print.html',
-      chunks: ['chunk-vendors', 'chunk-common', 'print']
-    }
+    index: 'build/main.js',
+    // print: {
+    //   entry: 'src/print.js',
+    //   // 模板来源
+    //   template: 'public/print.html',
+    //   chunks: ['chunk-vendors', 'chunk-common', 'print']
+    // }
   },
   configureWebpack: config => {
     config.entry = entries.getEntries()
